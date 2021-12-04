@@ -16,7 +16,7 @@ ul {
     display: block;
     color: white;
    
-    padding: 8px 9px;
+    padding: 16px 14px;
     text-decoration: none;
     width: 100%px;
     
@@ -30,14 +30,15 @@ ul {
     background-color: #09b83e;
   }
 
-header{
-    background-color: rgb(170, 165, 165);
-  padding: 200px;
-  font-size: 16px;
-  color: white;
-  background-image: url("images/Casamoderna.jpg");
-  background-size: 100%;
-  background-position: 100%;
+#header1{
+  width: 100%;
+    height: 100%;
+    background-color:#383838;
+    min-width: 1000px;
+    min-height: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/casa_campestre.jpg");
+    background-size: 100%;
 }
 
 #diseña{
@@ -92,19 +93,46 @@ border: 2px solid #f44336;
 	background-color:#b6b2b2;
 	min-width: 50px;
 	min-height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
 	}
 
-    .column2 {
+.column2 {
         float: left;
         width: 50%;
         padding: 20px;
         height: 100px; 
       }
     
-      .row1:after {
+.row1:after {
         content: "";
         display: table;
         clear: both;
       }
      
-     
+ 
+#casamoderna {
+    width: 100%;
+    height: 100%;
+    background-color:#383838;
+    min-width: 1000px;
+    min-height: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/Casamoderna.jpg");
+    background-size: 100%;
+   }  
+
+  .button4{
+    position: absolute;
+  left: 700px;
+  top: 1250px;
+  background-color: #9b9594;
+font-size: 18px;
+padding: 20px 40px;
+color: black;
+border: 2px solid #f44336;
+  }
+
+  .button4:hover {
+    background-color: #f44336;
+    color: white;
+  }
