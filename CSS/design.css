@@ -47,7 +47,7 @@ li a:hover:not(.active) {
  
  
   background-size: cover;
-  
+ 
 }
 
 
@@ -137,7 +137,7 @@ font-family: 'Poppins';font-size: 15px;
   max-width: 100%;
   margin:0 auto;
   overflow:hidden;
- 
+  
 }
 
 
@@ -271,6 +271,10 @@ font-family: 'Poppins';font-size: 15px;
   .acercade{
     width: 100%;
   }
+
+  .proyecto{
+    width: 100%;
+  }
   /* For tablets: */
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
@@ -356,4 +360,19 @@ font-family: 'Poppins';font-size: 15px;
   background-color: #383838;
   color: #FFFF;
  
+}
+
+.proyecto{
+  width: 100%;
+  align-self: flex-start;
+  padding:50px;
+  background-color: #383838;
+  color: #FFFF;
+  height: 1400px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
 }
