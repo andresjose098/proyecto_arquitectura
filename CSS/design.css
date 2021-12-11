@@ -249,6 +249,10 @@ font-family: 'Poppins';font-size: 15px;
  }
   
 
+ .googlemap{
+   width: 100%;
+ }
+
   #metodologia{
     width: 100%;
   }
