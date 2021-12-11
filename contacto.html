@@ -18,7 +18,7 @@
                 <li><a href="acercade.html">Acerca de</a></li>
                 <li><a href="proyecto.html">Proyectos</a></li>
                 <li><a href="#Store">Store</a></li>
-                <li><a  class="active" href="contacto.html">Contacto</a></li>
+                <li><a  class="active1" href="contacto.html">Contacto</a></li>
                 <li><a href="#CotizaTuCasa">Cotiza tu casa</a></li>
               
             </ul> 
@@ -29,9 +29,32 @@
                 
                    
                    <h2> <img src="https://img.icons8.com/fluency/48/000000/location-update.png"/>Carrera 18 sur #8-16 Riberas del rosario</h2>
+                   <div id="googleMap" style="width:50%;height:400px;"></div>
                     <h2><img src="https://img.icons8.com/material-two-tone/48/000000/add-phone.png"/>+573164928912</h2>
                     <h2><a href="https://wa.me/573164928912" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"><img src="https://img.icons8.com/color/96/000000/whatsapp--v5.png"/></i></a>
                     </h2>
+
+                    <h1>My First Google Map</h1>
+
+
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(3.25473,-76.55344),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker = new google.maps.Marker({
+          position: {lat: 3.25473, lng: -76.55344},
+          map: map,
+	  title: 'Arquitectura'
+        });
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiIXIdGC4rRgdiPigZ5djaPzPmZrR_lKw&callback=myMap"></script>
+
                 </div>
               
         </div>
