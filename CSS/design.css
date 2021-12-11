@@ -250,7 +250,8 @@ font-family: 'Poppins';font-size: 15px;
   
 
  .googlemap{
-   width: 100%;
+   width: 100px;
+   height: 40px;
  }
 
   #metodologia{
@@ -336,7 +337,7 @@ font-family: 'Poppins';font-size: 15px;
   padding: 50px;
   background-color: #383838;
   color: #FFFF;
- height: 900px;
+ height: 1200px;
 }
 
 
