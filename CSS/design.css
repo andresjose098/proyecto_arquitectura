@@ -480,3 +480,18 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+.cotizacion{
+  width: 100%;
+  align-self: flex-start;
+  padding:30px;
+  background-color: #383838;
+  color: #FFFF;
+ 
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
