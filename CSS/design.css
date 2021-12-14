@@ -60,6 +60,11 @@ nav{
   
 }
 
+.imagen{
+  text-align: center;
+  background-color: #333;
+}
+
 .row:after {
   content: "";
   display: table;
@@ -165,7 +170,7 @@ font-size: 9px;
   height: 100%;
   background-color:#383838;
   position: relative;
-  
+  text-align: center;
   
   
  }  
@@ -480,8 +485,12 @@ img {vertical-align: middle;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 600px) {
-  .prev, .next,.text {font-size: 11px}
+@media only screen and (max-width: 700px) {
+  .prev, .next,.text {
+    font-size: 14px
+     
+  }
+  
 }
 
 .cotizacion{
