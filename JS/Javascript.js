@@ -30,3 +30,11 @@ function showSlides(n) {
  
 }
 
+
+function myFunction(){
+  location.href='proyecto.html';
+}
+
+function contacto(){
+  location.href='contacto.html';
+}

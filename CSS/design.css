@@ -13,7 +13,7 @@ html,body{
   top: 0;
   width: 100%;
   z-index: 1000;
- 
+  
 }
 
 .navbar a {
@@ -137,7 +137,7 @@ font-family: 'Poppins';font-size: 15px;
   margin:0 auto;
   overflow:hidden;
   
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 
