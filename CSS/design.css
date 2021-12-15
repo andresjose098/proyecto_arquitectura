@@ -73,15 +73,6 @@ nav{
   clear: both;
 }
 
-.container{
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
- 
-}
-
 
 
 .box{
@@ -93,6 +84,8 @@ nav{
   min-width:18rem;
   margin: 10px;
   text-align: center;
+  min-height: 1050px;
+  max-height: 1400px;
 
 }
 
@@ -138,6 +131,7 @@ font-family: 'Poppins';font-size: 15px;
   overflow:hidden;
   
   margin-top: 200px;
+  
 }
 
 
@@ -225,10 +219,16 @@ font-family: 'Poppins';font-size: 15px;
 
 .container{
   width: 100%;
-  
+ 
   background-color:#383838;
   
  color: antiquewhite;
+ display:flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+
 }
 
 [class*="col-"] {
@@ -296,7 +296,15 @@ font-family: 'Poppins';font-size: 15px;
   .fa-instagram {
     width: 100%;
   }
+
+  .container{
+    width: 100%;
+    
+  }
   
+  .box{
+    width: 100%;
+  }
   
   /* For tablets: */
   .col-s-1 {width: 8.33%;}
@@ -365,7 +373,7 @@ font-family: 'Poppins';font-size: 15px;
 .whatsapp {
   position:fixed;
   font-family: 'Poppins';font-size: 15px;
-  bottom:126px;
+  bottom:56px;
   right:50px;
   background-color:#25d366;
   color:#FFF;
@@ -386,7 +394,7 @@ font-family: 'Poppins';font-size: 15px;
   padding:50px;
   background-color: #383838;
   color: #FFFF;
- 
+  height: 800px;
 }
 
 .proyecto{
@@ -395,7 +403,7 @@ font-family: 'Poppins';font-size: 15px;
   padding:30px;
   background-color: #383838;
   color: #FFFF;
- 
+  
   display:flex;
   flex-direction: row;
   justify-content: center;
@@ -414,6 +422,7 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
+  max-height: 1000px;
 }
 
 /* Next & previous buttons */
@@ -524,13 +533,18 @@ img {vertical-align: middle;}
   
 }
 
-footer{
-  background-color: #333;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
-  height: 100px;
-  text-align: center;
-  color: #fff;
-  font-size: 20px;
+ 
+  background-color: rgb(185, 132, 132);
+  color: white;
+  text-align: left;
+  
+  flex-direction: column;
+
 }
 
 
