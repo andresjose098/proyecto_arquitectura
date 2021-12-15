@@ -364,7 +364,7 @@ font-family: 'Poppins';font-size: 15px;
 
 .whatsapp {
   position:fixed;
- 
+  font-family: 'Poppins';font-size: 15px;
   bottom:126px;
   right:50px;
   background-color:#25d366;
@@ -499,7 +499,7 @@ img {vertical-align: middle;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width:300px) {
+@media only screen and (max-width:500px) {
   .prev, .next,.text {
     font-size: 14px
     
@@ -537,9 +537,9 @@ footer{
 
 
 .fa {
-  padding: 30px;
+ 
   
-  width: 100px;
+
   text-align: left;
   text-decoration: none;
   margin: 5px 2px;
