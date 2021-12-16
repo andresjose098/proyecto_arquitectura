@@ -84,8 +84,10 @@ html,body{
   transition: margin-left .5s;
   padding: 16px;
   position: fixed;
-  background-color: #FFF;
+  background-color: rgb(147, 212, 147);
   z-index: 1000;
+  width: 100%;
+  
 }
 
 @media screen and (max-height: 450px) {
@@ -182,7 +184,7 @@ font-family: 'Poppins';font-size: 15px;
   
   margin:0 auto;
   overflow:hidden;
- margin-top:280px;
+  
  transition: margin-left .5s;
  padding: 16px;
 }
@@ -629,7 +631,6 @@ img {vertical-align: middle;}
 .fa-instagram {
   background: #125688;
   color: white;
- text-align: right;
  
   
 }
