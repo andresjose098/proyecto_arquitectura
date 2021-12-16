@@ -9,23 +9,33 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='CSS/design.css'>
-    <script src='JS/Javascript.js'></script>
+   <style>
+       
+   </style>
 </head>
 
 <body>
    
    
   
-    <div class=" navbar">
+        <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a class="active1" href="index.html">Inicio</a>
         <a href="acercade.html">Acerca de</a>
         <a href="proyecto.html">Proyectos</a>
         <a  href="contacto.html">Contacto</a>
-        <a href="https://instagram.com/arq_ecodesign?utm_medium=copy_link" class="fa fa-instagram" style="width: 100px;"></a>
-      <a href="https://www.facebook.com/Arqecodesign/" class="fa fa-facebook"  style="width: 100px;"></a>
-      </div>
+        <a href="https://instagram.com/arq_ecodesign?utm_medium=copy_link" class="fa fa-instagram" style="width: 60px;"></a>
+        <a href="https://www.facebook.com/Arqecodesign/" class="fa fa-facebook"  style="width: 60px;"></a>
+       
+    </div>
+      
+<div id="main">
     
-   
+        <h2>LOREM</h2>
+        <p>Click on the element below to open the side navigation menu, and push this content to the right. Notice that we add a black see-through background-color to body when the sidenav is opened.</p>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Ecodesign</span>
+    </div>
+    
       <div class="col-12 col-s-12 contenedor1" id="contenedor1">    
         <div class="imagen">
             <img class="img" src="images/casa_campestre.jpg" style= "width:100%">
@@ -122,5 +132,18 @@
               </div>
 
 </div>
+<script>
+ function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
 </body>
 </html>

@@ -3,6 +3,7 @@ html,body{
   background-color: #717171;
   margin: 0;
   padding: 0;
+  
 }
 
 
@@ -18,7 +19,8 @@ html,body{
   top: 0;
   width: 100%;
   z-index: 1000;
-  
+  transition: margin-left .5s;
+  padding: 16px;
 }
 
 .navbar a {
@@ -44,6 +46,52 @@ html,body{
 }
 
 
+.sidenav {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  position: fixed;
+  background-color: #FFF;
+  z-index: 1000;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 
 
@@ -134,9 +182,9 @@ font-family: 'Poppins';font-size: 15px;
   
   margin:0 auto;
   overflow:hidden;
-  
-  margin-top: 200px;
-  
+ margin-top:280px;
+ transition: margin-left .5s;
+ padding: 16px;
 }
 
 
@@ -148,6 +196,8 @@ background-color:#b6b2b2;
 min-width: 50px;
 min-height: 60px;
 font-size: 12px;
+transition: margin-left .5s;
+  padding: 16px;
 }
 
 .column2 {
@@ -224,7 +274,7 @@ font-family: 'Poppins';font-size: 15px;
 
 .container{
   width: 100%;
- 
+  margin-top: 400px;
   background-color:#383838;
   
  color: antiquewhite;
@@ -413,7 +463,7 @@ font-family: 'Poppins';font-size: 15px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 900px;
+  height: 500px;
 
 }
 
