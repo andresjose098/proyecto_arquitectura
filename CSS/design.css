@@ -6,6 +6,11 @@ html,body{
 }
 
 
+.titulometodologia{
+  color:#ffffff;
+  text-align: center;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -280,13 +285,8 @@ font-family: 'Poppins';font-size: 15px;
     width: 100%;
   }
 
-  .acercade{
-    width: 100%;
-  }
+  
 
-  .proyecto{
-    width: 100%;
-  }
 
   .contenedor1{
     
@@ -320,6 +320,17 @@ font-family: 'Poppins';font-size: 15px;
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
 }
+
+.acercade{
+  width: 100%;
+  align-self: flex-start;
+  padding:50px;
+  background-color: #383838;
+  color: #FFFF;
+ height: 1020px;
+
+}
+
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   
@@ -389,14 +400,6 @@ font-family: 'Poppins';font-size: 15px;
 }
 
 
-.acercade{
-  width: 100%;
-  align-self: flex-start;
-  padding:50px;
-  background-color: #383838;
-  color: #FFFF;
-  height: 800px;
-}
 
 .proyecto{
   width: 100%;
@@ -410,7 +413,8 @@ font-family: 'Poppins';font-size: 15px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  
+  height: 1000px;
+
 }
 
 
@@ -420,10 +424,10 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100%;
   position: relative;
   margin: auto;
-  max-height: 1000px;
+
 }
 
 /* Next & previous buttons */
@@ -515,6 +519,7 @@ img {vertical-align: middle;}
     
   }
 
+ 
   
   
 }
