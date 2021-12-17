@@ -386,7 +386,7 @@ font-family: 'Poppins';font-size: 15px;
   padding:50px;
   background-color: #383838;
   color: #FFFF;
- height: 970px;
+ 
 
 }
 
@@ -472,11 +472,9 @@ font-family: 'Poppins';font-size: 15px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 500px;
+  
 
 }
-
-
 
 .mySlides {display: none}
 img {vertical-align: middle;}
@@ -582,6 +580,7 @@ img {vertical-align: middle;}
   
   
 }
+
 
 .cotizacion{
   width: 100%;
