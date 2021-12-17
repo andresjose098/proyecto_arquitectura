@@ -7,6 +7,14 @@ html,body{
 }
 
 
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 300px;
+}
+
+
 .titulometodologia{
   color:#ffffff;
   text-align: center;
@@ -282,7 +290,7 @@ font-family: 'Poppins';font-size: 15px;
 
 .container{
   width: 100%;
- 
+  
   background-color:#383838;
   
  color: antiquewhite;
@@ -382,7 +390,7 @@ font-family: 'Poppins';font-size: 15px;
 .acercade{
   width: 100%;
   align-self: flex-start;
-  padding:50px;
+  padding:20px;
   background-color: #383838;
   color: #FFFF;
  
@@ -435,7 +443,7 @@ font-family: 'Poppins';font-size: 15px;
   padding: 50px;
   background-color: #383838;
   color: #FFFF;
- height: 1200px;
+ 
 }
 
 
@@ -480,7 +488,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1100px;
+  max-width: 1000px;
   position: relative;
   margin: auto;
 
@@ -604,7 +612,7 @@ img {vertical-align: middle;}
  
   background-color: rgb(185, 132, 132);
   color: white;
-  text-align: left;
+  text-align: center;
   padding: 0px;
   flex-direction: column;
 
