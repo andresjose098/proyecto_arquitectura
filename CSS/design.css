@@ -411,6 +411,9 @@ font-family: 'Poppins';font-size: 15px;
   text-align: center;
  }
 
+  .column4{
+    width: 33.33%;
+  }
  
 
   .column{
@@ -441,7 +444,7 @@ font-family: 'Poppins';font-size: 15px;
 .contacto{
   width: 100%;
   align-self: flex-start;
-  padding: 50px;
+  padding: 20px;
   background-color: #383838;
   color: #FFFF;
  
@@ -450,8 +453,8 @@ font-family: 'Poppins';font-size: 15px;
 
 .whatsapp {
   position:fixed;
-  width:60px;
-  height:60px;
+  width:70px;
+  height:70px;
   bottom:30px;
   right:10px;
   background-color:#25d366;
@@ -610,42 +613,42 @@ img {vertical-align: middle;}
   left: 0;
   bottom: 0;
   width: 100%;
- 
-  background-color: rgb(185, 132, 132);
+  color:#333;
+  background-color: #ffffff;
   color: white;
-  text-align: center;
+  
   padding: 0px;
-  flex-direction: column;
+
 
 }
-
-
-
-
 .fa {
- 
-  
-
-  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
   text-decoration: none;
   margin: 5px 2px;
- 
+  border-radius: 50%;
 }
 
 .fa:hover {
-    opacity: 0.9;
+    opacity: 0.7;
 }
+
+
+
+
 
 .fa-facebook {
   background: #3B5998;
   color: white;
-  width:100px;
+  width:50px;
 }
 
 .fa-instagram {
   background: #125688;
   color: white;
- 
+  width:50px;
   
 }
 
@@ -661,4 +664,15 @@ img {vertical-align: middle;}
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+
+.column4{
+  float:left;
+ 
+  padding:10 px;
+  column-fill: auto;
+  column-gap: 10px;
+  color:#111;
+  font-size: 15px;
 }
