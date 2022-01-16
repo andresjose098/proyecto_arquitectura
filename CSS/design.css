@@ -6,6 +6,47 @@ html,body{
   
 }
 
+.losproyectos{
+  width:100%;
+  background-color: rgb(41, 39, 39);
+  column-gap: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container2 {
+  position: relative;
+  width: 50%;
+  max-width: 500px;
+  float: left;
+  padding: 20px;
+  box-sizing:border-box;
+}
+
+.image01 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container2:hover .overlay {
+  opacity: 1;
+}
 
 .wrapper {
   display: grid;
