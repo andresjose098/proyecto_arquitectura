@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='CSS/design.css'   href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+  
+         
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a  href="index.html">Inicio</a>
+    <a href="acercade.html">Quienes somos</a>
+    <a href="proyecto.html">Proyectos</a>
+    <a class="active1" href="contacto.html">Contacto</a>
+    <a  href="SERVICIOS.HTML">Servicios</a>
+   
+   
+   
+</div>
+  
+<div id="main">
+    
+        
+        
+  <span style="font-size:25px;cursor:pointer" onclick="openNav()">&#9776;  </span>
+  <img src="images/Ecodesign1.jpg" alt="diseño" width="70px" style="border-radius: 50%; float:right;" >
+</div>
+
+    
+      <div class="col-12 col-s-12 contenedor1" id="contenedor1" >  
+        <div class="contacto" id="contacto">
+            <div class=" row1" id="row1">
+                <div class="col-12 col-s-12"><h1>CONTACTO <br>comunicate con nosotros</h1>
+                  
+                   
+                   <h2> <img src="https://img.icons8.com/fluency/48/000000/location-update.png"/>Carrera 18 sur #8-16 Riberas del rosario</h2>
+                   <div id="googleMap" style="width:100%;height:600px;"></div>
+                  
+                    </h2>
+
+                   
+  <script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(3.25473,-76.55344),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker = new google.maps.Marker({
+          position: {lat: 3.25473, lng: -76.55344},
+          map: map,
+	  title: 'Arquitectura'
+        });
+}
+
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiIXIdGC4rRgdiPigZ5djaPzPmZrR_lKw&callback=myMap"></script>
+
+                </div>
+              
+        </div>
+
+      
+     
+      </div>
+
+      </div>
+    <br>
+      <div class="contactame" style="color:black; padding: 0px;">
+        <div class="containerform">
+          <h2 style="text-align: center;">Contactanos</h2>
+          <form target="_blank" action="https://formsubmit.co/andres-jose1998@hotmail.com" method="POST">
+            <br>   
+   
+           
+           Su nombree:<br>
+          <input type="text" name="nombre" placeholder="Digite su nombre" required ><br>
+          E-mail:<br>
+         <input type="hidden" name="_next" value="new email wooo!">
+         <input type="email" name="email" placeholder="Digite su correo"  required><br>
+      
+
+         Su telefono:<br>
+         <input type="text" name="telefono" size="50"  placeholder="Digite su telefono" required><br>
+         Asunto:<br>
+         <input type="text" name="asunto" size="50"  placeholder="Digite su asunto"   required><br>
+         Su mensaje:<br>
+         <input type="text" name="mensaje" size="50"  placeholder="Digite su mensaje"  required><br><br>
+         <input type="submit" value="Send">
+         <input type="reset" value="Reset">
+          </form>
+    </div>
+  </div>
+        <div class="footer" style="padding:0px;">
+
+          <h2><a href="https://wa.me/573164928912?text=Me%20gustaría%20realizar%20una%20cotización" class="whatsapp" target="_blank"><img src="https://img.icons8.com/color/50/000000/whatsapp--v3.png"/></a></h2>
+          
+              <div class="row">
+                  <div class="col-s-3 column4">
+                    <img src="images/Ecodesign.PNG" width="100px" style="border-radius: 50px;">
+                    <p>Diseñamos tus espacios para ser de tu vida el hogar que siempre has soñado </p>
+                     
+                       <a href="https://instagram.com/arq_ecodesign?utm_medium=copy_link" class="fa fa-instagram" ></a>
+                      <a href="https://www.facebook.com/Arqecodesign/" class="fa fa-facebook"  ></a>
+                    
+                   
+                  </div>
+                  <div class="col-s-3 column4" >
+                    <h2>Contacto</h2>
+                   
+                    <p><img src="https://img.icons8.com/fluency/50/000000/location-update.png"/>Carrera #18 sur #8-16 Jamundi valle</p>
+                    <p><img src="https://img.icons8.com/fluency/48/000000/phone-office.png"/>3164928912</p>
+                  </div>
+                  <div class="col-s-3 column4" >
+                    <h2>últimos proyectos</h2>
+                    <p>Casa campestre piendamo</p>
+                    <p>Ampliación Juan Pablo II</p>
+                    <p>Capilla</p>
+                    <p>Casa José Riascos</p>
+                  </div>
+                
+           
+                  
+              </div>
+
+</body>
+</html>
